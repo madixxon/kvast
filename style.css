@@ -222,38 +222,61 @@ position: relative;
   opacity: 0.5;
   background: url('img/icon-thumbsup.png') no-repeat;
 }
-/*
+/*Раздел про историю*/
 
-.item-history {
+.product-history {
   height: 680px;
   background-color: white;
   padding: 0;
   margin: 0;
 }
-
-
-
-
-
-
+.history {
+  position: relative;
+  margin-top: 83px;
+}
+.site {
+  position: absolute;
+  top: -16px;
+  right: 0;
+}
+.site a {
+  color: #834700;
+  font-style: italic;
+}
+.history-img {
+  float: right;
+}
+.history-item-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 400px;
+}
+.history-item-title a {
+  color: #834700;
+}
+dd {
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+}
+.history-description {
+  width: 489px;
+  line-height: 30px;
+}
+/* Раздел про прессу*/
 
 .press {
   height: 480px;
   background-color: #ede5d8;
 }
-.press .press-tiile {
-  text-transform: uppercase;
-  margin-bottom: 90px;
-    font-size: 40px;
-}
+
 .press .container-more {
-  padding-top: 80px;
-  position: relative;
-  padding-bottom: 50px;
+ position: relative;
+ height: inherit;
 }
-.press .container-more img {
+.press .container-more .press-img {
   position: absolute;
-  top: 228px;
+ top: 218px;
 }
 .container .review-item {
   width: max;
@@ -262,7 +285,7 @@ position: relative;
   color: #404040;
   padding-bottom: 100px;
 }
-cite {
+.press cite {
   float:right;
   margin-top: 50px;
   text-transform: uppercase;
@@ -272,6 +295,8 @@ cite {
 }
 .review-item p {
   width: 670px;
+  margin-top: 100px;
+  line-height: 30px;
 }
 .review-item a {
   float:left;
@@ -282,4 +307,3 @@ cite {
   border: 2px solid #a7a198;
   color: #bcb6ab;
 }
-*/

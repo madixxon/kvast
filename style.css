@@ -320,21 +320,36 @@ dd {
 .page-footer .footer-social {
   float: left;
   margin-top: 30px;
-  width: 213px;
+  width: 216px;
   height: 66px;
 }
-.footer-social a {
+.footer-social .social-button {
   display: inline-block;
-  width:66px;
-  height: 66px;
+  width: 66px;
+  height: 64px;
   background-color: #1b1b1b;
   border: 1px solid #322d24;
+  margin: 0;
+  padding: 0;
 }
-.social-button {
-  width: 18px;
-  height: 18px;
+.social-button a {
+  width: 20px;
+  height: 20px;
+}
+.insta-btn {
+  display: block;
   margin-top: 23px;
   margin-left: 23px;
+}
+.fb-btn {
+  display: block;
+  margin-top: 23px;
+  margin-left: 28px;
+}
+.vk-btn {
+  display: block;
+  margin-top: 23px;
+  margin-left: 24px;
 }
 .footer-attention {
   float: left;
@@ -362,4 +377,11 @@ dd {
   margin: 0;
   margin-top: 23px;
   margin-left: 33px;
+}
+.htmla-button img {
+
+  margin-top: 18px;
+  margin-left: 20px;
+
+
 }

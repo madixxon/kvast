@@ -48,15 +48,15 @@ color: #d8d8d8;
 padding-top: 60px;
 }
 
-.header-top {
+.navigation-top {
  height: 76px;
 }
-.header-logo {
+.logo {
   float: left;
   width: 140px;
   height: 76px;
 }
-.header-logo img {
+.logo img {
   width: 140px;
   height: 76px;
 }
@@ -306,4 +306,60 @@ dd {
 .btn-read {
   border: 2px solid #a7a198;
   color: #bcb6ab;
+}
+
+/* Подвал */
+.page-footer {
+  height: 294px;
+  background-color: black;
+  color: #989898;
+}
+.top-footer {
+  padding-top: 30px;
+}
+.page-footer .footer-social {
+  float: left;
+  margin-top: 30px;
+  width: 213px;
+  height: 66px;
+}
+.footer-social a {
+  display: inline-block;
+  width:66px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid #322d24;
+}
+.social-button {
+  width: 18px;
+  height: 18px;
+  margin-top: 23px;
+  margin-left: 23px;
+}
+.footer-attention {
+  float: left;
+  width: 250px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.footer-developer {
+  float:right;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.footer-developer a {
+  display: inline-block;
+  float: left;
+  width: 66px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid #322d24;
+}
+.developer {
+  float: left;
+  margin-left: 50px;
+  margin: 0;
+  margin-top: 23px;
+  margin-left: 33px;
 }

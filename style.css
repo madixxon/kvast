@@ -276,7 +276,7 @@ dd {
 }
 .press .container-more .press-img {
   position: absolute;
- top: 218px;
+ top: 225px;
 }
 .container .review-item {
   width: max;
@@ -308,6 +308,70 @@ dd {
   color: #bcb6ab;
 }
 
+/* Раздел "Ассортимент" */
+.assortment {
+  background-color: white;
+  height: 643px;
+}
+.assortment-table {
+  margin-top: 103px;
+  width: 100%;
+  height: 316px;
+  text-transform: uppercase;
+  border-collapse: collapse;
+}
+.assortment-table tr, .assortment-table th {
+  border-bottom: 1px solid #e5e5e5;
+}
+.assortment-table th {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+  font-size: 11px;
+  color: #999999;
+}
+.assortment-table td:first-child {
+  font-weight: bold;
+}
+.assortment-table th:last-child {
+  text-align: right;
+}
+.assortment-table td:last-child {
+  text-align: right;
+}
+.assortment-table sup {
+  background-color: black;
+  color: white;
+  font-size: 8px;
+  padding: 3px;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Раздел "Заказать" */
+
+.submit-form {
+  background-color: #ffcb78;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Подвал */
 .page-footer {
   height: 294px;
@@ -317,20 +381,23 @@ dd {
 .top-footer {
   padding-top: 30px;
 }
+.footer-bottom {
+  margin-top: 48px;
+}
 .page-footer .footer-social {
   float: left;
-  margin-top: 30px;
-  width: 216px;
+  width: 213px;
   height: 66px;
 }
 .footer-social .social-button {
   display: inline-block;
-  width: 66px;
-  height: 64px;
-  background-color: #1b1b1b;
-  border: 1px solid #322d24;
   margin: 0;
   padding: 0;
+  width: 66px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid #322d24;
+
 }
 .social-button a {
   width: 20px;
@@ -354,13 +421,15 @@ dd {
 .footer-attention {
   float: left;
   width: 250px;
-  margin-top: 40px;
+  margin: 0;
+  margin-top: 10px;
+
   margin-left: 50px;
 }
 .footer-developer {
   float:right;
   width: 400px;
-  margin-top: 30px;
+
   margin-left: 50px;
 }
 .footer-developer a {

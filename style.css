@@ -357,12 +357,16 @@ dd {
 
 
 /* Раздел "Заказать" */
-
 .submit-form {
-  background-color: #ffcb78;
+ background-color: #ffcb78;
 }
-
-
+.submit-form .container {
+  height: 1185px;
+}
+.submit-description {
+  margin-top: 97px;
+  margin-bottom: 84px;
+}
 
 
 
@@ -399,24 +403,29 @@ dd {
   border: 1px solid #322d24;
 
 }
+.page-footer .main-nav {
+  margin-left: 125px;
+}
 .social-button a {
+  position: relative;
   width: 20px;
   height: 20px;
+
 }
 .insta-btn {
   display: block;
   margin-top: 23px;
-  margin-left: 23px;
+  margin-left: 28px;
 }
 .fb-btn {
   display: block;
   margin-top: 23px;
-  margin-left: 28px;
+  margin-left: 30px;
 }
 .vk-btn {
   display: block;
   margin-top: 23px;
-  margin-left: 24px;
+  margin-left: 23px;
 }
 .footer-attention {
   float: left;

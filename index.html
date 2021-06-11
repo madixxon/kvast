@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Крафтовый квас всему голова!</title>
      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="outlines.css">
+    <!--  <link rel="stylesheet" href="outlines.css">
   </head>
   <body>
     <!-- Шапка сайта -->
@@ -15,10 +15,10 @@
             <img src="img/logo.png" alt="Кваст" width="140" height="76">
           </div>
           <ul class="main-nav clearfix">
-            <li><a href="#">История</a></li>
-            <li><a href="#">Производство</a></li>
-            <li><a href="#">Ассортимент</a></li>
-            <li><a href="#">Где купить</a></li>
+            <li><a href="#history">История</a></li>
+            <li><a href="#advantages">Производство</a></li>
+            <li><a href="#assortment">Ассортимент</a></li>
+            <li><a href="#buy">Где купить</a></li>
         </ul>
     </div>
       <p class="header-title">Крафтовый квас <br> всему голова!</p>
@@ -75,7 +75,7 @@
 
 <!-- Преимущества -->
 
-      <div class="product-advantages clearfix">
+      <div class="product-advantages clearfix" id="advantages">
         <div class="container-more">
           <div class="advantages-div clearfix">
             <ul>
@@ -98,7 +98,7 @@
 
 <!-- Раздел об истории -->
 
-      <div class="product-history">
+      <div class="product-history" id="history">
         <div class="container">
         <h2 class="section-title">Немного истории</h2>
         <div class="history-items">
@@ -152,7 +152,7 @@
 
 <!--Раздел про ассортимент -->
 
-<div class="assortment">
+<div class="assortment" id="assortment">
   <div class="container">
   <h2 class="section-title">Ассортимент</h2>
   <table class="assortment-table">
@@ -197,35 +197,37 @@
 
 <!--Форма отправки-->
 
-<div class="submit-form">
+<div class="submit-form" id="buy">
   <div class="container">
   <h2 class="section-title">Заказать</h2>
   <p class="submit-description">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены!
     Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
-<form class="submit-form">
-  <div class="fullname">
+<form>
+  <div class="form fullname">
     <label for="name">Представьтесь:</label>
     <input type="text" id="name" name="name">
   </div>
-  <div class="feedback">
+  <div class="clearfix">
+  <div class="form feedback-phone-left">
     <label for="phone">Номер телефона:</label>
     <input type="text" id="phone" name="phone">
   </div>
-  <div class="feedback">
+  <div class="form feedback-phone-right">
     <label for="phone2">Доп. номер:</label>
     <input type="text" id="phone2" name="phone2">
   </div>
-  <div class="feedback">
+</div>
+  <div class=" form feedback-email">
     <label for="email">Email:</label>
     <input type="text" id="email" name="email">
   </div>
-  <div class="feedback">
+  <div class="form volume">
   <label for="topic">Объём заказа:</label><br>
   <select id="topic" name="topic">
     <option value="1">От 5 до 10 баррелей в неделю</option>
   </select>
 </div>
-<div class="feedback">
+<div class="form message">
   <label id="message">Доп. комментарий:</label>
   <textarea type="text" id="message" name="message">
   </textarea>
@@ -236,7 +238,7 @@
     Я согласен получать квасную рассылку
     </label>
   </div>
-  <input type="submit" class="btn" value="Отправить заказ">
+  <input type="submit" class="btn btn-send" value="Отправить заказ">
 </form>
 </div>
 </div>
@@ -250,10 +252,10 @@
           </div>
 
           <ul class="main-nav">
-            <li><a href="#">История</a></li>
-            <li><a href="#">Производство</a></li>
-            <li><a href="#">Ассортимент</a></li>
-            <li><a href="#">Где купить</a></li>
+            <li><a href="#history">История</a></li>
+            <li><a href="#advantages">Производство</a></li>
+            <li><a href="#assortment">Ассортимент</a></li>
+            <li><a href="#buy">Где купить</a></li>
         </ul>
 
     </div>
